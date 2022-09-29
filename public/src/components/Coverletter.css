@@ -1,0 +1,29 @@
+.coverletter-text > p { 
+    color: #242424; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+.coverletter-container > h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+.coverletter-container {
+    display: flex;
+    flex-flow: column;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.coverletter-text {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+  
