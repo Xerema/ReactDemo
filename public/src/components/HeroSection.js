@@ -15,7 +15,7 @@ function HeroSection() {
           LEARN MORE
         </Button>
         </Link>
-        <Link to='/opencv'>
+        <Link to='/opencv' target='_blank' rel='noreferrer noopener'>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
           REVIEW CV <i className='fa fa-file-pdf' />
         </Button>

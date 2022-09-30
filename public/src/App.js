@@ -1,22 +1,22 @@
-import React from 'react';
-import Navbar from './components/Navbar';
+import * as React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
 import Experience from './components/pages/Experience';
 import Aboutme from './components/pages/Aboutme';
 import Portfolio from './components/pages/Portfolio';
 import Login from './components/pages/Login';
 import Contact from './components/pages/Contact';
+import Layout from './components/pages/Layout';
+
 
 function App() {
+
   return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-        <Route path='/' element={<Home />} />
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="*" element={<Home />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/aboutme' element={<Aboutme />} />
@@ -30,11 +30,8 @@ function App() {
         <Route path='/twitter' element={<Twitter />} />
         <Route path='/linkedin' element={<LinkedIn />} />
         <Route path='/github' element={<GitHub />} />
-
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </>
+      </Route>
+    </Routes>
   );
 }
 
@@ -72,7 +69,5 @@ function GitHub() {
   window.location.replace('https://github.com/Xerema');
   return null;
 }
-
-
 
 export default App;

@@ -30,22 +30,22 @@ function Footer() {
         <section>
             <div class='social-media-wrap'>
                 <div class='social-icons'>
-                    <Link class='social-icon-link facebook' to='/facebook' aria-label='Facebook'>
+                    <Link class='social-icon-link facebook' to='/facebook' target='_blank' rel='noreferrer noopener' aria-label='Facebook'>
                     <i class='fab fa-facebook-f' />
                     </Link>
-                    <Link class='social-icon-link instagram' to='/instagram' aria-label='Instagram'>
+                    <Link class='social-icon-link instagram' to='/instagram' target='_blank' rel='noreferrer noopener' aria-label='Instagram'>
                     <i class='fab fa-instagram' />
                     </Link>
-                    <Link class='social-icon-link youtube' to='/youtube' aria-label='Youtube'>
+                    <Link class='social-icon-link youtube' to='/youtube' target='_blank' rel='noreferrer noopener' aria-label='Youtube'>
                     <i class='fab fa-youtube' />
                     </Link>
-                    <Link class='social-icon-link twitter' to='/twitter' aria-label='Twitter'>
+                    <Link class='social-icon-link twitter' to='/twitter' target='_blank' rel='noreferrer noopener' aria-label='Twitter'>
                     <i class='fab fa-twitter' />
                     </Link>
-                    <Link class='social-icon-link linkedin' to='/linkedin' aria-label='LinkedIn'>
+                    <Link class='social-icon-link linkedin' to='/linkedin' target='_blank' rel='noreferrer noopener' aria-label='LinkedIn'>
                     <i class='fab fa-linkedin' />
                     </Link>
-                    <Link class='social-icon-link github' to='/github' aria-label='GitHub'>
+                    <Link class='social-icon-link github' to='/github' target='_blank' rel='noreferrer noopener' aria-label='GitHub'>
                     <i class='fab fa-github' />
                     </Link>
                 </div>

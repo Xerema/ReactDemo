@@ -1,9 +1,5 @@
-My portfolio demo made by HTML, CSS and REACT.
+ReactApp portfolio demo
 
-Hosted with Firebase, https://reactdemo-9597a.web.app/
-
-Unfinished, alot of placeholders etc but working mostly
-
-Made in under 2 days rougly.
+Made in rougly 2 days
 
 Made by Niko Raipia.
