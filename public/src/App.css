@@ -5,26 +5,26 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.experience,
-.portfolio,
-.aboutme {
+.Home,
+.Experience,
+.Portfolio,
+.Aboutme {
   display: flex;
-  height: 90vh;
+  height: 100%;
   width: 100%;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.experience {
+.Experience {
   color: #fff;
 }
 
-.portfolio {
+.Portfolio {
   color: #fff;
 }
 
-.aboutme {
+.Aboutme {
   color: #fff;
 }

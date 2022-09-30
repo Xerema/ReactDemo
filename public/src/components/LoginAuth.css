@@ -1,0 +1,29 @@
+.login-container {
+    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #242424;
+  }
+
+.login-form {
+    max-width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+}
+
+.login-inputs
+  {
+    margin: 5px;
+    padding: 15px;
+    width: 320px;
+  }
+
+.log-button {
+    width: 320px;
+}

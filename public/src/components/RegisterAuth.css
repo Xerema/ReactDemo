@@ -1,0 +1,23 @@
+.register-container {
+    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.register-input
+  {
+    margin: 5px;
+    padding: 7px;
+    width: 100%;
+  }
+
+.signup-button
+  {
+   margin:5px;
+   width: 100%;
+   border: 1px red;
+  }

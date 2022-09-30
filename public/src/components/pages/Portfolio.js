@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+import Placeholder from '../Placeholder';
 
 function Portfolio() {
   return (
     <>
-      <Cards />
+      <Placeholder />
     </>
   );
 }

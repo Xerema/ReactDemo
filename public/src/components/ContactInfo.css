@@ -1,0 +1,10 @@
+.contactinfo-container {
+    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    height: 50vh;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+  }

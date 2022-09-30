@@ -1,0 +1,22 @@
+.experiencedata-container {
+    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    height: calc(99vh - 80px);
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color: #2A2A2E;
+  }
+
+  .cv-container {
+    height: calc(99vh - 80px);
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 10px;
+  }

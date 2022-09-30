@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
@@ -16,9 +15,9 @@ function HeroSection() {
           LEARN MORE
         </Button>
         </Link>
-        <Link to='/download'>
+        <Link to='/opencv'>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-          DOWNLOAD CV <i className='fa fa-download' />
+          REVIEW CV <i className='fa fa-file-pdf' />
         </Button>
         </Link>
       </div>
