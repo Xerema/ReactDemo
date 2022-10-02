@@ -3,6 +3,7 @@ import './Coverletter.css';
 
 function Coverletter() {
   return (
+    <div className='coverletter-full'>
     <div className='coverletter-container'>
         <h2>Who am I?</h2>
             <div className='coverletter-text'>
@@ -55,6 +56,7 @@ function Coverletter() {
                     
             </div>
     </div>
+</div>
   )
 }
 

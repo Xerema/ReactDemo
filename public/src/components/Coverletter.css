@@ -1,5 +1,5 @@
 .coverletter-text > p { 
-    color: #242424; 
+    color: #fff; 
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 18px; 
     line-height: 32px; 
@@ -8,9 +8,16 @@
     text-justify: inter-word; 
 }
 
+.coverletter-full {
+  background-color: #242424;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
 .coverletter-container > h2 {
     text-align: center;
     margin-top: 30px;
+    color: #fff;
   }
   
 .coverletter-container {

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './HeroSection.css';
 
+
 function HeroSection() {
   return (
     <div className='hero-container'>
@@ -15,7 +16,7 @@ function HeroSection() {
           LEARN MORE
         </Button>
         </Link>
-        <Link to='/opencv' target='_blank' rel='noreferrer noopener'>
+        <Link to='/opencv'>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
           REVIEW CV <i className='fa fa-file-pdf' />
         </Button>
