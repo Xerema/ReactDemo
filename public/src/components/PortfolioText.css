@@ -4,7 +4,7 @@
     background: #242424;
   }
   
-  h1 {
+  .portfolio > h1 {
     text-align: center;
     color: #fff;
   }

@@ -4,8 +4,9 @@
   background: #fff;
 }
 
-h1 {
+.cards > h1 {
   text-align: center;
+  color: #242424;
 }
 
 .cards__container {

@@ -13,7 +13,7 @@ function PortfolioText() {
                 src='images/img-3.jpg'
                 text='GPT3 Placeholder'
                 label='Artificial Intelligence'
-                path='/portfolio'
+                path='/portfolio/gpt3'
               />
               <CardItemPortfolio
                 src='images/img-1.jpg'

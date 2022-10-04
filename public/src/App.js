@@ -9,6 +9,7 @@ import Login from './components/pages/Login';
 import Contact from './components/pages/Contact';
 import Layout from './components/pages/Layout';
 import StableDiffusion from './components/pages/StableDiffusion';
+import Gpt3 from './components/pages/Gpt3';
 
 function OpenCV() {
   window.open('https://drive.google.com/file/d/1lxmgQTuvGTFbZXf6b5DyeJmChoGaZtgy/view?usp=sharing', '_blank');
@@ -67,6 +68,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/portfolio/stablediffusion' element={<StableDiffusion />} />
+        <Route path='/portfolio/gpt3' element={<Gpt3 />} />
       </Route>
 
         <Route path='/opencv' element={<OpenCV />} />

@@ -11,10 +11,10 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
                 <h2>About me</h2>
-                    <Link className='footer-link-items-text' to='/aboutme'>Who am I?</Link>
-                    <Link className='footer-link-items-text' to='/experience'>Experience</Link>
+                    <Link className='footer-link-items-text' to='/'>Home</Link>
                     <Link className='footer-link-items-text' to='/portfolio'>Portfolio</Link>
-                    <Link className='footer-link-items-text' to='/contact'>Contact Me</Link>
+                    <Link className='footer-link-items-text' to='/experience'>Experience</Link>
+                    <Link className='footer-link-items-text' to='/aboutme'>About me</Link>
                 </div>
             </div>
             <div className='footer-link-wrapper'>

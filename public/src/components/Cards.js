@@ -18,7 +18,7 @@ function Cards() {
             <CardItem
               src='images/img-1.jpg'
               text='Stable Diffusion text-to-image generator'
-              label='Artificial Intelligence'
+              label='Artificial Intelligence Pictures'
               path='/portfolio'
             />
           </ul>

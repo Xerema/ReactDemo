@@ -60,14 +60,26 @@
     display: flex;
     flex-direction: column;
     margin: 16px;
-    text-align: left;
     width: 160px;
     box-sizing: border-box;
   }
   
-  .footer-link-items h2 {
-    margin-bottom: 16px;
+  .footer-link-items > h2 {
+    margin-bottom: 1rem;
     text-align: center;
+    color: #fff;
+  }
+
+  .footer-link-items > a {
+    color: #fff;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-link-items a:hover {
+    color: #007DC2;
+    transition: 0.2s ease-out;
   }
 
   .footer-link-items-text {
@@ -76,21 +88,6 @@
 
   .footer-link-items-text-c {
     margin-left: 22px;
-  }
-  
-  .footer-link-items > h2 {
-    color: #fff;
-  }
-  
-  .footer-link-items a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-  }
-  
-  .footer-link-items a:hover {
-    color: #007DC2;
-    transition: 0.2s ease-out;
   }
   
   .footer-email-form h2 {
